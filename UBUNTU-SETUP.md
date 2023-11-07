@@ -7,7 +7,7 @@ This addendum to the original [Development Setup Guide](https://github.com/inatu
 1. Install Homebrew:
 
    ```bash
-   https://github.com/inaturalist/inaturalist/wiki/Development-Setup-Guide#basic-dependencies
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
 ## [Docker](https://docs.docker.com/desktop/install/ubuntu/)
@@ -79,7 +79,5 @@ This addendum to the original [Development Setup Guide](https://github.com/inatu
    ```bash
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
    ```
-
-
 
 For the rest of the development setup, use the original Development Setup Guide, continuing from the [Rails app](https://github.com/inaturalist/inaturalist/wiki/Development-Setup-Guide#rails-app) section.
